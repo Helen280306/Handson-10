@@ -1,0 +1,10 @@
+package latihan1_srp.good;
+s
+public class MessageFormatter {
+
+    public String format(String message) {
+        String formatted = message.toUpperCase() + " [SENT AT: " + System.currentTimeMillis() + "]";
+        System.out.println("[Formatter] Message formatted: " + formatted);
+        return formatted;
+    }
+}
